@@ -1,0 +1,59 @@
+.acca-container{
+    background-color: #f2edff;
+    box-shadow: 0px 3px 3px -2px rgb(0 0 0 / 20%), 0px 3px 4px 0px rgb(0 0 0 / 14%), 0px 1px 8px 0px rgb(0 0 0 / 12%);
+    padding: 30px;
+    margin-bottom: 40px;
+    
+}
+.ul-cont2{
+    font-size: 24px;
+}
+.li-item{
+    margin-bottom: 10px;
+}
+.levels-cart{
+    box-shadow: 0px 3px 3px -2px rgb(0 0 0 / 20%), 0px 3px 4px 0px rgb(0 0 0 / 14%), 0px 1px 8px 0px rgb(0 0 0 / 12%);
+    display: flex;
+    height: 120px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 24%;
+}
+.levels-head{
+    font-size: 24px;
+}
+.book{
+    height: 24px;
+    width: 24px;
+    margin-right: 15px;
+}
+.desc{
+    font-size: 21px;
+    font-weight: 500;
+}
+.book-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cards-cont{
+    display: flex;
+    justify-content: space-between;
+}
+@media(max-width:700px){
+    .levels-cart{
+        width: 48%;
+        margin-bottom: 15px;
+    }
+    .cards-cont{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .desc{
+        font-size: 15px;
+    }
+    .levels-head{
+        font-size: 18px;
+    }
+}

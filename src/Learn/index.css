@@ -1,0 +1,59 @@
+.learn-cont{
+    margin: 10px;
+    width: 25%;
+    min-height: 100%;
+    border-radius: 7px;
+    background-color: aliceblue;
+    box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+}
+.knowladge-level{
+    background-color: #32127a;
+    color: #ffffff;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    padding: 20px;
+    font-size: 23px;
+}
+.learn-ul{
+    text-align: start;
+}
+.enroll-now{
+    background-color: #32127a;
+    color: #ffffff;
+    padding: 15px;
+    border-radius: 5px;
+    font-weight:500 ;
+    font-size: 17px;
+    border: 0px;
+    margin-bottom: 23px;
+    
+}
+.learn-container{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+.skills{
+    display: flex;
+    flex-direction: column;
+}
+
+@media(max-width : 700px){
+    .learn-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .learn-cont{
+        width: 100%;
+    }
+
+}
+.Compulsory{
+    font-size: 23px;
+    font-weight: 500;
+}
+.learn-li{
+    margin: 8px;
+    font-size: 18px;
+    font-weight: 400;
+}

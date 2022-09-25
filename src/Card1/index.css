@@ -1,0 +1,84 @@
+.card-container{
+    background-color: #f1f8fe;
+    display: flex;
+    padding: 60px;
+    margin-top: 50px;
+}
+.form-container{
+    padding: 20px;
+    text-align: center;
+    background-color: #ffffff;
+    margin-top: 5px solid red;
+    order: 0;
+    border-radius: 5px;
+    box-shadow: 0px 3px 3px -2px rgb(0 0 0 / 20%), 0px 3px 4px 0px rgb(0 0 0 / 14%), 0px 1px 8px 0px rgb(0 0 0 / 12%);
+    order: 0;
+}
+.para{
+    font-size: 22px;
+}
+.get-ready{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    text-align: start;
+    margin-right: 30px;
+    order: 0;
+}
+.download-btn{
+    background-color: #32127A;
+    color: #ffffff;
+    padding: 11px;
+    font-size: 17px;
+    border-radius: 5px;
+    border: 0px;
+    margin-right: 10px;
+}
+.acca-img{
+    height: 42px;
+    width: 130px;
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    order: 0;
+}
+.aspiring{
+    font-size: 20px;
+    font-weight: 500;
+}
+.e-mail{
+    height: 25px;
+    padding: 10px;
+    width: 90%;
+    border: 1px solid;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 17px;
+}
+.request-btn{
+    width:95%;
+    padding: 10px;
+    background-color: #32127A;
+    color: #ffffff;
+    border: 0px;
+    font-size: 22px;
+}
+@media (max-width:700px){
+    .card-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .get-ready{
+        text-align: center;
+        align-items: center;
+    }
+    .get-ready{
+        order: -1;
+    }
+    .btn-container{
+        margin-bottom: 20px;
+    }
+}

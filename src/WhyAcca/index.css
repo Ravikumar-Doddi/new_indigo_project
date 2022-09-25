@@ -1,0 +1,82 @@
+
+  .li-item{
+    display: flex;
+    align-items: center;
+    text-align: start;
+    font-size:17px;
+  }
+  .react-icon{
+    margin-right: 10px;
+  }
+
+  .bulb-icon{
+    height: 35px;
+    width: 35px;
+    color: #ffffff;
+  }
+  .conceptual{
+    font-size: 25px;
+    color: #ffffff;
+  }
+  .ul-item{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #32127A;
+    padding: 25px;
+  }
+
+  .why-acca{
+    font-size: 40px;
+  }
+
+.why-acc-cont{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.span-element {
+  color: -webkit-link;
+  cursor: pointer;
+}
+.live-classes{
+  font-size: 24px;
+}
+.silver-learning{
+  height: 60px;
+  width: 170px;
+}
+
+.acca-line{
+  width: 120px;
+  height: 10px;
+  border-radius: 30px;
+  background-color: #32127a;
+}
+.why-cont{
+  margin: 10px;
+  width: 25vw;
+  min-height: 100%;
+  background-color: aliceblue;
+  box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+}
+.why-container{
+  display: flex;
+}
+.why-main-cont{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media(max-width : 700px){
+  .why-container{
+    flex-wrap: wrap;
+  }
+  .why-cont{
+    width: 90vw;
+  }
+}

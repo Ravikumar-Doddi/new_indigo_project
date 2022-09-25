@@ -1,0 +1,26 @@
+.placement-cont{
+    background-color: #f2edff;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+.head{
+    text-align: start;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.paragraph{
+    font-size: 20px;
+    text-align: start;
+    margin-bottom: 20px;
+}
+.placement-head{
+    font-size: 40px;
+}
+.dark-line5{
+    border: 10px solid #32127A;
+    border-radius: 5px;
+    width: 100px;
+    align-self: center;
+}
